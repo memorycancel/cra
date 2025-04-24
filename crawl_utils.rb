@@ -17,9 +17,9 @@ class HTTPClient
   end
 end
 
-@httpclient = HTTPClient.new
+# @httpclient = HTTPClient.new
 # can use environment variable 'http_proxy' or 'HTTP_PROXY' instead.
-# @httpclient = HTTPClient.new('http://127.0.0.1:10809')
+@httpclient = HTTPClient.new('http://127.0.0.1:10809')
 
 class String
   # charset: gbk/gb2312 etc..

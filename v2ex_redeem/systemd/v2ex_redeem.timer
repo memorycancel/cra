@@ -1,0 +1,8 @@
+[Unit]
+Description=开启领取 V2EX 奖励
+
+[Timer]
+OnBootSec=5min
+
+[Install]
+WantedBy=timers.target
