@@ -1,0 +1,9 @@
+[Unit]
+Description=Scientifc surfing internet
+After=network.target
+
+[Service]
+ExecStart=/home/memorycancel/Documents/Xray-linux-64/xray -c /home/memorycancel/Documents/Xray-linux-64/xxx.json
+
+[Install]
+WantedBy=default.target
