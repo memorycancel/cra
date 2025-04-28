@@ -8,3 +8,4 @@
 | 脚本目录    | 用途 |
 | -------- | ------- |
 | [v2ex_redeem](v2ex_redeem)  | 自动获取 V2EX 每日奖励    |
+| [xray](xray)  | Run xray in daemon    |
